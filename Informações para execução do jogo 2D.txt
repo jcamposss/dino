@@ -1,0 +1,60 @@
+Manual de Execução do Jogo 2D
+
+1. Requisitos de Execução
+-------------------------
+Antes de executar o jogo, certifique-se de que os seguintes itens estão instalados no seu computador:
+
+- Python 3.8 ou superior
+- Bibliotecas Python necessárias:
+  - PyOpenGL
+  - Pillow
+
+Certifique-se também de que os arquivos de textura estão na mesma pasta do código:
+- background.png
+- Dino.png
+- Dino2.png
+- cacto.png
+- passaro.png
+
+
+2. Controles do Jogo
+---------------------
+2.1. Início do Jogo:
+- Clique com o botão esquerdo do mouse na tela inicial para começar o jogo.
+
+2.2. Movimento do Dinossauro:
+- Seta para cima (↑): Faz o dinossauro pular.
+- Seta para baixo (↓): Faz o dinossauro abaixar.
+
+2.3. Pausa e Retomar:
+- Pressione ENTER (↵):
+  - Pausa o jogo e exibe o menu de pausa.
+  - O menu tem duas opções:
+    - 1. Continuar Jogo: Clique no botão correspondente ou pressione Enter novamente.
+    - 2. Reiniciar Jogo: Clique no botão correspondente para reiniciar o jogo.
+
+2.4. Game Over:
+- Quando todas as vidas acabarem, o jogo exibe "Game Over".
+- Para reiniciar:
+  - Clique com o botão esquerdo do mouse na tela de "Game Over".
+
+
+3. Regras do Jogo
+------------------
+1. Objetivo:
+   - Evitar colisões com os obstáculos para acumular pontos.
+
+2. Obstáculos:
+   - Cacto: Posicionado no chão, deve ser evitado pulando.
+   - Pássaro: Voa a uma altura moderada, deve ser evitado abaixando.
+
+3. Vidas:
+   - Você começa com 3 vidas.
+   - Cada colisão reduz uma vida.
+   - Perder todas as vidas resulta em "Game Over".
+
+4. Pontuação:
+   - Cada obstáculo evitado adiciona pontos.
+   - A dificuldade aumenta com o tempo (os obstáculos ficam mais rápidos).
+
+
